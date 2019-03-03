@@ -1,7 +1,21 @@
 
-
+body { 
+    background-image: url('./images/rain.jpeg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    }
+  
 nav {
     height: 60px;
+}
+
+.test {
+    background-color: white;
+    height: 100%;
+}
+
+.jumbotron {
+    
 }
 
 .footer {
