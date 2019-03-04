@@ -29,6 +29,10 @@ h2 ul {
     
 }
 
+.icons {
+    margin: auto;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
