@@ -1,20 +1,29 @@
 
 body { 
-    background-image: url('./images/rain.jpeg');
-    background-repeat: no-repeat;
-    background-position: center; 
+    background-image: url('./images/wood.jpeg');
+    background-repeat: repeat;
+    background-position: center;
+    height: 100%;
     }
   
 nav {
     height: 60px;
 }
 
-.test {
+h2 ul {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bd-bg {
     background-color: white;
-    height: 100%;
+    width: 960px;
+    margin:auto;
 }
 
 .jumbotron {
+    background-color:#5C4033;
+    width: 960px;
+    margin: auto;
     
 }
 
