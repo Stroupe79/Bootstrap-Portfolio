@@ -46,12 +46,43 @@ a {
     color: grey;
 }
 
+.imgButton {
+    position: relative;
+    width: 50%;
+}
+
+.imgButton img {
+    width: 60%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.imgButton .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: brown;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .imgButton .btn:hover {
+    background-color: white;
+    color: black;
+  }
+
 .icons {
     margin: auto;
     text-decoration: none;
 }
 
-.card {}
+
 
 /* .footer {
     position: relative;
