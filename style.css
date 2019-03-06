@@ -70,12 +70,12 @@ a {
     border: none;
     cursor: pointer;
     border-radius: 20px;
-  }
-  
-  .imgButton .btn:hover {
+}
+
+.imgButton .btn:hover {
     background-color: white;
     color: black;
-  }
+}
 
 .icons {
     margin: auto;
@@ -99,6 +99,4 @@ a {
 }
 
 
-@media (max-width: 960px) {
-   
-}
+@media (max-width: 960px) {}
