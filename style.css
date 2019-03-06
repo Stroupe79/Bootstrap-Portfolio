@@ -4,6 +4,7 @@ body {
     background-position: center;
     background-size: 100%;
     font-family: 'Roboto', sans-serif;
+    height: 100%;
 }
 
 .nav {
@@ -20,12 +21,12 @@ h2 ul {
     font-family: 'Roboto', sans-serif;
 }
 
-.center {
+/* .center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 
 .bd-bg {
     background-color: white;
@@ -53,7 +54,7 @@ a {
 .card {}
 
 .footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -61,9 +62,12 @@ a {
     background-color: #f5f5f5;
 }
 
-@media (min-width: 1200px) {
-    .container {
-        width: 960px;
+.container {
+    width: 960px;
 
-    }
+}
+
+
+@media (min-width: 960px) {
+   
 }
