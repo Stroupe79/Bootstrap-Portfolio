@@ -15,7 +15,7 @@ $(document).ready(function () {
         state: $("#state").val(),
         zip: $("#zip").val()
         };
-        console.log($("#zip"))
+        console.log(zip)
 
         console.log(submit);
     });

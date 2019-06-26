@@ -60,16 +60,23 @@
           <div class="jumbotron jumbotron-fluid text-light">
             <div class="container">
               <h1 class="display-3 ">Contact Me!</h1>
-              <form>
+
+
+
+              <form action="https://mailthis.to/cstroupe79@gmail.com"
+              method="POST"  encType="multipart/form-data">
+
+
+
                 <div class="row">
                   <div class="form-group col-md-6">
-                    <label for="firstName" id="fName">First Name</label>
-                    <input class="form-control">
+                    <label for="firstName">First Name</label>
+                    <input class="form-control"  id="fName" type="text"/>
                   </div>
 
                   <div class="form-group col-md-6">
-                    <label for="lastName" id="lName">Last Name</label>
-                    <input class="form-control">
+                    <label for="lastName">Last Name</label>
+                    <input class="form-control" id="lName" type="text"/>
                   </div>
 
                 </div>
@@ -77,13 +84,13 @@
                 <div class="row">
 
                   <div class="form-group col-md-4">
-                    <label for="Email" id="email">Email address</label>
-                    <input type="email" class="form-control font-italic" placeholder="We'll never share your email">
+                    <label for="Email">Email address</label>
+                    <input type="email" class="form-control font-italic" placeholder="We'll never share your email" id="email"/>
                   </div>
 
                   <div class="form-group col-md-4">
-                    <label for="Phone" id="phone">Phone Number</label>
-                    <input type="text" class="form-control font-italic" placeholder="(555) 555-5555">
+                    <label for="Phone">Phone Number</label>
+                    <input type="phone"  id="phone" class="form-control font-italic" placeholder="(555) 555-5555">
                   </div>
 
                   <div class="form-group col-md-4">
@@ -92,20 +99,20 @@
 
 
                 <div class="form-group">
-                  <label for="Address" id="address">Address</label>
-                  <input class="form-control">
+                  <label for="Address">Address</label>
+                  <input class="form-control" id="address" type="text">
                 </div>
 
 
                 <div class="row">
                   <div class="form-group col-md-6">
-                    <label for="City" id="city">City</label>
-                    <input class="form-control">
+                    <label for="City">City</label>
+                    <input class="form-control" type="text" id="city">
                   </div>
 
 
                   <div class="form-group col-md-3">
-                    <label for="State" id="state">State</label>
+                    <label for="State">State</label>
                     <select class="form-control">
                       <option value="">N/A</option>
                       <option value="AK">Alaska</option>
@@ -161,11 +168,13 @@
                       <option value="WV">West Virginia</option>
                       <option value="WY">Wyoming</option>
                       </select>
+                      <!-- <input class="form-control" id="state" type="text"> -->
+
                   </div>
 
                   <div class="form-group col-md-3">
-                    <label for="Zip" id="zip">Zip</label>
-                    <input class="form-control">
+                    <label for="zip">Zip</label>
+                    <input class="form-control" id="zip" type="number">
                   </div>
                 </div>
 
