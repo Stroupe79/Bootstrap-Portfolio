@@ -7,6 +7,7 @@ body {
     height: 100%;
 }
 
+
 .nav {
     height: 60px;
     width: 100%;
@@ -21,12 +22,6 @@ h2 ul {
     font-family: 'Roboto', sans-serif;
 }
 
-/* .center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
 
 .bd-bg {
     background-color: white;
@@ -44,6 +39,11 @@ h2 ul {
 a {
     text-decoration: none !important;
     color: grey;
+}
+
+.project {
+    text-decoration: none !important;
+    color: white;
 }
 
 .imgButton {
